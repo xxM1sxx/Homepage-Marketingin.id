@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color:white ;
+}
+header {
+  display: inline;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,2);
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+.box-navbar {
+    flex-direction: row;
+    flex-basis: 40%;
+}
+.double-navbar {
+  flex-basis: 60%;
+}
+nav a{   
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+a:hover{
+  font-weight: bold;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+
+  }
+
+.logo {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.navigasi {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.container {
+  display: flex;
+  margin-left: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.row-tentangkami{
+  display:flex ;
+  width: 100%;
+  flex-direction: row;
+  padding: 0px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  margin-top: 130px;
+}
+.judul-tentangkami {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.isi-tentangkami{
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 60%;
+  text-align: justify;
+  margin-top: 50px;
+}
+.img-tentangkami {
+  margin-right: 50px;
+  max-width: 40%;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+.box{
+  flex-basis:30%;
+  margin-top: 0px;
+}
+.double {
+  flex-basis: 70%;
+}
+.row-layanan{
+  display:flex ;
+  width: 100%;
+  flex-direction: row;
+  padding: 0px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.judul-layanan{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+.box-layanan{
+  width: 30px;
+  flex-grow: 1;
+  padding: 30px;
+  text-align: center;
+  margin: 10px 70px 10px 70px;
+}
+.box-layanan-img{
+  width: 30px;
+  flex-grow: 1;
+  padding: 30px;
+  text-align: center;
+  max-width: 40%;
+}
+.row-layanan {
+  display:flex ;
+  width: 100%;
+  flex-direction: row;
+  max-width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.img-promo-container{
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.box-promo{
+  flex-grow: 1;
+  text-align: center;
+  width: 500px;
+}
+.footer{
+  background-color: rgb(49,75,111);
+  width: 100%;
+  height: 100%;
+}
+.hubungikami{
+  display: flex;
+  width: 100%;
+}
+.box-hubungikami{
+  flex-grow: 1;
+  margin: 20px 50px 20px 50px;
+  padding: 10px;
+  width: fit-content;
+}
+.hubungikami-judul-sosmed{
+  color: white;
+  margin-bottom: 0px;
+}
+.hubungikami-sosmed{
+  color: white;
+  list-style-type:none;
+  margin-bottom: 10px;
+}
+.a-sosmed{
+  text-decoration: none;
+  color: white;
+}
+.alamat{
+  color: white;
+  width: fit-content;
+}
+.isi-alamat{
+  list-style-type: none;
+  color: white;
+  width: 150px;
+}
+.judul-biodata{
+  text-align: center;
+}
+.container-foto-biodata{
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+}
+.foto-biodata{
+  border-radius: 50%
+}
+.isi-biodata{
+  text-align: justify;
+  margin: 50px auto;
+}
+@media screen and (max-width: 1000px) {
+  .row-tentangkami{
+    flex-basis: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    max-width: 700px;
+    margin-top: 40px;
+  }
+  .judul-tentangkami{
+    font-size: 30px;
+  }
+  .isi-tentangkami{
+    max-width: 100%;
+  }
+  .navigasi{
+    display: none;
+  }
+  .img-promo{
+    justify-content: center;
+    max-width: 90%;
+  }
+  .img-tentangkami{
+    display:none ;
+  }
+  .box-layanan-img{
+   max-width: 400px;
+  }
+  .alamat{
+    box-sizing: border-box;
+    width: fit-content;
+  }
+  .isi-alamat{
+    box-sizing: border-box;
+    width: fit-content;
+  }
+  .hubungikami{
+    flex-direction: column;
+  }
+  }
+ 
